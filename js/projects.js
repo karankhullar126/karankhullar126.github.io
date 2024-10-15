@@ -59,8 +59,17 @@ fetch('projects.json', {
                 cardContent.appendChild(anchorTag)
             }
 
-            
-           
+            if(items[i]['githubLink']) {
+                let anchorTag = document.createElement('a')
+                anchorTag.href = items[i].githubLink
+                
+                const appStoreImg = document.createElement('img')
+                appStoreImg.src = 'images/GitHub.png'
+                appStoreImg.className = 'appStore'
+
+                anchorTag.appendChild(appStoreImg)
+                cardContent.appendChild(anchorTag)
+            }
 
             itemList.appendChild(cardPortfoliio)
 
