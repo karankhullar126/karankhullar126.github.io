@@ -2,47 +2,63 @@
     "projects": [
         {
             "title": "FIS Mobile Banking",
+            "shortDescription": "Secure mobile banking app with multi-factor and biometric authentication.",
+            "technologyStack": "Swift, Ionic, Angular, Local Authentication",
             "description": "Mobile banking application with  following modules:<br><b>Authentication:</b> The application employs a secure authentication process that verifies user identity before granting access to sensitive banking functionalities<br><b>Multi-Factor Authentication (MFA):</b> To enhance security, the application implements MFA, requiring users to verify their identity through multiple methods: OTP<br><b>Biometric Login:</b> The application supports biometric authentication to facilitate quick and secure access.<br><b>Forget Password:</b> The password recovery feature enables users to regain access to their accounts in case they forget their password.<br><b>User Enrolment:</b> User enrolment is the initial registration process for new users, designed to ensure secure and efficient onboarding<br><b>Security Considerations:</b> Encryption, Regular Audits and User Education.<br><b><u>Technology Stack:</u></b> Swift, Ionic, Angular, Local Authentication",
             "image":"images/projects/FIS.jpg"
         },
         {
             "title": "Birthday Reminder",
+            "shortDescription": "Birthday tracking app with widgets, countdowns, and calendar sync.",
+            "technologyStack": "Swift, Local Notification, CloudKit, In-app Purchase",
             "description": "Birthday Reminder is a user-friendly mobile application designed to help users manage and track birthdays efficiently. With a focus on simplicity and elegance, the app offers a comprehensive set of features to ensure that users never miss an important celebration.<br><b>Contact Integration:</b> Users can easily import birthdays from existing contacts through seamless integration with the device's contact list. This feature minimizes data entry and ensures that all relevant birthdays are accounted for.<br><b>Countdown Timer:</b> The app provides a countdown feature for upcoming birthdays, allowing users to view how many days are left until each celebration. This visual aid enhances user awareness and encourages timely preparation.<br><b>Contact Overview:</b> Users can quickly access a summary of their contacts, displaying names, photos, and ages at a glance. This feature simplifies navigation and helps users keep track of their social circle's important dates.<br><b>Customizable Notifications:</b> Users can customize the day and time for birthday notifications, ensuring they receive alerts according to their preferences. This feature helps users plan ahead and avoid last-minute surprises.<br><b>Multiple Widget Options:</b> Birthday Reminder offers six different widget configurations, allowing users to personalize their home screen. These widgets display relevant birthday information and countdowns, ensuring easy access at a glance.<br><b>Cross-Device Synchronization:</b> The app supports synchronization across multiple devices, ensuring that users have access to their birthday reminders on all their devices. This feature enhances usability and ensures that information is always up-to-date.<br><b>Calendar Integration:</b> Users can add birthdays to their device calendar with a single tap, facilitating integration with other scheduling tools and providing a comprehensive view of upcoming events.<br><b>Dark Mode Support:</b> Birthday Reminder supports Dark Mode, allowing users to switch to a visually comfortable interface in low-light conditions, enhancing usability and reducing eye strain.<br><b>User Ratings:</b> Birthday Reminder boasts an impressive average rating of 4.7 stars, reflecting high user satisfaction and trust in the application. <br> <b> <u>Technology Stack:</u> </b> Swift, Local Notification, CloudKit, In-app Purchase",
             "appstoreLink": "https://apps.apple.com/us/app/birthday-reminder-countdown/id1453656360",
             "image":"images/projects/BirthdayReminder.png"
         },
         {
             "title": "Toga",
+            "shortDescription": "Dating app with 24-hour match expiry and geolocation-based meetups.",
+            "technologyStack": "Objective-C, Geo Location, Socket, Crashlytics, Push Notifications",
             "description": "Toga revolutionizes the online dating landscape by integrating time-sensitive matching with a focus on real-world interactions. Utilizing a streamlined user interface, Toga facilitates connections between users by presenting matches based on geographic proximity and shared interests. <br><b>Time-Limited Matching:</b> Each match is valid for 24 hours, compelling users to act quickly and decisively. If a date isn’t arranged within this window, the match expires, fostering urgency and commitment. <br><b>Location-Based Coordination:</b> The application employs geolocation technology to suggest neutral meeting points equidistant from both users, enhancing convenience and ensuring safety in the initial meetup. <br><b>Profile Verification:</b> Toga minimizes the risk of encountering fake profiles and catfishing by promoting genuine interactions from the outset. Users are encouraged to provide authentic representations of themselves, enhancing trust in the platform. <br><b>User-Centric Design:</b> The intuitive interface simplifies the dating process, allowing users to navigate matches and schedule dates with ease. Built-in prompts guide users through the steps of setting up their meetups. <br><b>Enhanced Communication:</b> Toga offers a chat feature that allows users to communicate briefly while maintaining focus on setting up the date. This ensures that conversations remain purposeful and productive. <br> <b> <u>Technology Stack:</u> </b> Objective-C, Geo Location, Socket, Crashlytics, Push Notifications",
             "appstoreLink": "https://itunes.apple.com/us/app/toga/id1214332179?ls=1&mt=8",
             "image":"images/projects/Toga.png"
         },
         {
             "title": "Podcastly",
+            "shortDescription": "Podcast discovery and playback app using React Native and Redux.",
+            "technologyStack": "React Native Expo, Redux, React Navigation",
             "description": " <strong>Podcastly</strong> is a sleek and intuitive podcast app built with <strong>React Native Expo</strong>, designed for seamless podcast discovery and listening. It features a powerful <strong>podcast search</strong>, detailed episode information, and a smooth <strong>podcast player</strong>, all managed efficiently using <strong>Redux</strong> for state management.<br><br><strong>✨ Features:</strong><br>🔍 <strong>Podcast Search</strong> – Find your favorite podcasts effortlessly.<br>📖 <strong>Podcast Detail</strong> – Get insights on episodes and podcast metadata.<br>🎵 <strong>Podcast Player</strong> – Enjoy streaming with playback controls.<br>⚡ <strong>Redux Integration</strong> – Ensures a smooth and scalable state management.<br><br><strong>🚀 Tech Stack:</strong><br>✅ <strong>React Native Expo</strong> – Fast development & cross-platform support.<br>✅ <strong>Redux</strong> – Centralized and efficient state management.<br>✅ <strong>React Navigation</strong> – Intuitive app navigation.<br>",
             "githubLink": "https://github.com/karankhullar126/podcastly",
             "image":"images/projects/Podcastly.png"
         },
         {
             "title": "FinTrack",
+            "shortDescription": "iCloud-synced finance tracker with SwiftUI and customizable categories.",
+            "technologyStack": "SwiftUI, SwiftData, CloudKit",
             "description": " Fintrack is a financial tracking application designed to help users monitor their income and expenses efficiently. The application provides a user-friendly interface for logging transactions, categorizing expenses, and syncing data with iCloud for seamless access across devices.            <br><b>Transaction Tracking:</b>Users can easily add and manage financial transactions, including both income and expenses.Each transaction can be recorded with essential details such as amount, date, description, and transaction type (income or expense).<br><b>Expense Categorization:</b>Fintrack allows users to create custom categories for expenses (e.g., Food, Transportation, Utilities).Users can assign categories to each expense during entry, enabling better organization and analysis of spending patterns.<br><b>iCloud Synchronization:</b> The application utilizes iCloud for data storage and synchronization, ensuring that users' financial data is backed up and accessible across all their Apple devices.Changes made on one device are automatically reflected on all others, providing a seamless experience.<br><b>User Interface:</b>The app features a clean and intuitive interface built with SwiftUI, which simplifies the process of entering and managing transactions.A dashboard provides users with an overview of their financial status, including total income, expenses, and remaining balance.<br> <b> <u>Technology Stack:</u> </b> SwiftUI, SwiftData, CloudKit",
             "githubLink": "https://github.com/karankhullar126/FinTrack",
             "image":"images/projects/FinTrack.png"
         },
         {
             "title": "Chaumet in the Sky",
+            "shortDescription": "AR-based jewelry experience integrated with 3D celestial exploration.",
+            "technologyStack": "Swift, ARKit, SceneKit",
             "description": "Chaumet in the Sky is an immersive mobile application designed to bridge the gap between high jewelry and celestial exploration, offering users a unique experience of discovering the Maison's latest High Jewellery collection through augmented reality (AR) and 3D visualization.<br><b>Augmented Reality Integration:</b> The app utilizes AR technology to overlay digital representations of jewelry onto the user’s real-world environment. By pointing their device towards the sky, users can view stunning pieces of jewelry seamlessly integrated with celestial elements.<br><b>3D Scene Visualization:</b> Chaumet in the Sky employs advanced 3D rendering techniques to create lifelike representations of jewelry pieces. Users can rotate and interact with these models, allowing them to examine intricate details.<br><b>Collection Showcase:</b> Users can access an extensive catalog of the latest High Jewellery collection, complete with detailed descriptions and high-resolution images. The app allows users to filter and search for pieces based on style, material, and inspiration.<br> <b> <u>Technology Stack:</u> </b> Swift, ARKit, SceneKit",
             "appstoreLink": "https://apps.apple.com/us/app/chaumet-in-the-sky/id1467721156",
             "image":"images/projects/Chaumet.png"
         },
         {
             "title": "PawMoji",
+            "shortDescription": "Pet-to-sticker creator with keyboard extension and in-app purchases.",
+            "technologyStack": "Swift, In-App Purchase, Keyboard Extension, Deep Linking",
             "description": "PawMoji is an innovative mobile application designed to transform photos of pets into customizable stickers, allowing users to enhance their digital communication across various platforms.<br><b>Custom Sticker Creation</b><br><b>Custom Keyboard Integration:</b> PawMoji features a custom keyboard that allows users to access their personalized stickers directly within their messaging apps. This seamless integration enhances the user experience by making it easy to share stickers without leaving the current application.<br><b>In-App Purchases:</b> PawMoji offers additional sticker packs, exclusive filters, and premium customization options available for in-app purchase. This feature allows users to expand their sticker library and enhance their creative possibilities.<br><b>Storage and Organization:</b> The app features a user-friendly gallery where all created stickers are stored. Users can categorize their stickers for easy access, facilitating quick retrieval and sharing.<br> <b> <u>Technology Stack:</u> </b> Swift, In-App Purhcase, Keyboard extension, Deep Linking",
             "appstoreLink": "https://apps.apple.com/us/app/pawmoji-your-pet-everywhere/id1457958600",
             "image":"images/projects/PawMoji.png"
         },
         {
             "title": "Flickonic",
+            "shortDescription": "AR filter video recording app with real-time face detection.",
+            "technologyStack": "Swift, UIKit, ARKit, AVFoundation",
             "description": "<b>Real-Time Face Detection:</b> Utilizes machine learning algorithms to detect and track facial landmarks, enabling accurate overlay of filters in real-time.<br><b>Real-Time Processing:</b> Allows users to record videos while applying selected AR filters in real-time, capturing the augmented content directly.<br><b>Trimming and Editing:</b> Basic video editing tools to trim video length and add music or sound effects.<br><b>Scrollable Feed:</b> Users can scroll through a feed of videos, showcasing their own creations and those of others, in a visually engaging format.<br><b><u>Technology Stack:</u></b> Swift, UIKIt, ARKit, AVFoundation, ",
             "appstoreLink": "https://apps.apple.com/us/app/flickonic/id6462501160",
             "youtube": "https://www.youtube.com/embed/n4GDGdRsVq8",
@@ -50,12 +66,16 @@
         },
         {
             "title": "Memriez",
+            "shortDescription": "Life journal app that auto-imports posts, health, and book data.",
+            "technologyStack": "Swift, CloudKit, Operation Queue",
             "description": "<b>APIs:</b> Connects to popular platforms (e.g., Twitter, Instagram, Facebook) to automatically import posts, comments, and interactions.<br><b>Health APIs:</b> Integrates with health data platforms (e.g., Apple HealthKit, Google Fit) to automatically track metrics such as steps, heart rate, and sleep patterns.<br><b>Manual Entry:</b> Allows users to log additional health-related observations and notes.<br><b>Books:</b> Connects with Goodreads API for tracking reading progress, reviews, and recommendations.<br><b>iCLoud sync</b><br><b><u>Technology stack:</u></b> Swift, CloudKit, Operation queue",
             "youtube": "https://www.youtube.com/embed/jcYuIzCnq9s",
             "image":"images/projects/Memriez.png"
         },
         {
             "title": "Cracker AR",
+            "shortDescription": "AR fireworks simulation with sound and 3D effects.",
+            "technologyStack": "Swift, ARKit, Particle Systems",
             "description": "Burst Crackers Simulation<br><b>3D Models:</b> High-fidelity 3D models of various burst crackers (e.g., rockets, flower pots, chakras) are created and optimized for performance.<br><b>Particle Effects:</b> Uses particle systems to simulate fireworks and bursting effects, including color variations, smoke, and sparkles to mimic real-life explosions.<br><b>Sound Effects:</b> Integrated audio clips synchronized with the visual effects, creating an immersive experience with realistic cracker sounds.",
             "appstoreLink": "https://apps.apple.com/us/app/crackers-ar/id1297345981",
             "image":"images/projects/CrackerAR.png"
