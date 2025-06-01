@@ -1,0 +1,87 @@
+{
+    "skills": [
+      {
+        "section": "Languages",
+        "values": [
+          "Swift",
+          "Objective-C",
+          "TypeScript",
+          "JavaScript"
+        ]
+      },
+      {
+        "section": "Frameworks",
+        "values": [
+        "React native",
+          "Redux",
+          "Expo", 
+          "Angular",
+          "Ionic",
+          "SwiftUI",
+          "UIKit",
+          "XCTest",
+          "CoreData",
+          "CoreAnimation",
+          "CoreLocation",
+          "AVFoundation",
+          "AVKit",
+          "Firebase",
+          "StoreKit",
+          "CloudKit",
+          "ARKit",
+          "Combine"
+        ]
+      },
+      {
+        "section": "Architecture & Design",
+        "values": [
+          "MVC",
+          "MVVM",
+          "Singleton",
+          "Delegation",
+          "Protocol-Oriented Programming",
+          "Dependency Injection"
+        ]
+      },
+      {
+        "section": "Developer Tools",
+        "values": [
+          "Xcode",
+          "Cocoapods",
+          "Visual Studio",
+          "Slack",
+          "Jira",
+          "Trello",
+          "Rally",
+          "Postman",
+          "Git (GitHub/Gitlab/Bitbucket)",
+          "Carthage"
+        ]
+      },
+      {
+        "section": "Performance Optimization",
+        "values": [
+          "Instruments",
+          "Memory Management"
+        ]
+      },
+      {
+        "section": "Others",
+        "values": [
+          "Machine Learning",
+          "Push Notifications",
+          "Code Signing",
+          "App Store",
+          "RESTful APIs",
+          "Debugging",
+          "Auto Layout",
+          "Object Oriented Design",
+          "Localization",
+          "Accessibility",
+          "VoiceOver",
+          "SOLID principles"
+        ]
+      }
+    ]
+}
+  
