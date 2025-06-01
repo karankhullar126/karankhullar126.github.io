@@ -1,4 +1,4 @@
-fetch('skills.json', {
+fetch('Skills.json', {
     method: 'GET',
     mode:"no-cors" // or 'POST' if needed
     })
