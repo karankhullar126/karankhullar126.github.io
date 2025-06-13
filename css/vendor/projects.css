@@ -19,6 +19,7 @@
     transition: transform 0.2s ease;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
   }
   
   .project-card:hover {
@@ -64,3 +65,35 @@
     color: #888;
   }
   
+
+  .modal {
+    display: none; 
+    position: fixed;
+    z-index: 999;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.3);
+    position: relative;
+    animation: fadeIn 0.3s ease;
+    max-height: 90%;
+    overflow: scroll;
+  }
+
+  .close-model {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    font-size: 1.5rem;
+    color: #888;
+    cursor: pointer;
+  }

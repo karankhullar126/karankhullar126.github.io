@@ -110,27 +110,34 @@
 
       <div class="unslate_co--section" id="portfolio-section">
         <div class="container">
-          
-          
-          <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+          <div class="relative">
+            <div class="loader-portfolio-wrap">
+              <div class="loader-portfolio"></div>
+            </div>
+          </div>
           <div id="portfolio-single-holder"></div>
-
+        
           <div class="portfolio-wrapper">
-
             <div class="d-flex align-items-center mb-4">
               <h2 class="mr-auto heading-h2"><span>Portfolio</span></h2>
             </div>
+            <div id="portfolio-list"></div>
+            <script src="js/projects-new.js"></script>
 
+        
 
-          <div id ="portfolio-list">
-
-          </div>
-          <script src="js/projects-new.js"></script>
-
+            <div id="project-popover" class="modal">
+              <div id="popover-content" class="modal-content">
+                <span class="close-model" onclick="closePopover()">&times;</span>
+                <div id="popover-project-content" style="color: black;"></div>
+              </div>
+            </div>
           
+        
+        
           </div>
-
-
+        
+        
         </div>
       </div>
 
